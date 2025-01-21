@@ -27,7 +27,7 @@ project-root/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Instagram-Account-Page.git
+   git clone https://github.com/AnkitAnandaq/Instagram-Account-Page.git
    ```
 2. Navigate to the project directory:
    ```bash
