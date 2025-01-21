@@ -1,0 +1,103 @@
+{
+    "dogs": {
+      "name": "dogs",
+      "followers": 75000,
+      "following": 150,
+      "bio": "Man's best friend, loyal and loving companions.",
+      "profile_picture": "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8",
+      "posts": [
+        { "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16", "likes": 3000, "comments": 41 },
+        { "image": "https://images.unsplash.com/photo-1507143550189-fed454f93097", "likes": 2500, "comments": 32 },
+        { "image": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d", "likes": 500, "comments": 6 },
+        { "image": "https://images.pexels.com/photos/4587991/pexels-photo-4587991.jpeg", "likes": 4500, "comments": 50 },
+        { "image": "https://images.pexels.com/photos/721066/pexels-photo-721066.jpeg", "likes": 3200, "comments": 27 }
+      ]
+    },
+    "cats": {
+      "name": "cats",
+      "followers": 50000,
+      "following": 120,
+      "bio": "Independent and graceful creatures with a playful streak.",
+      "profile_picture": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131",
+      "posts": [
+        { "image": "https://images.unsplash.com/photo-1592194996308-7d7d9f7a81e5", "likes": 4000, "comments": 50 },
+        { "image": "https://images.unsplash.com/photo-1559235038-1b39d6c0ddec", "likes": 3500, "comments": 40 },
+        { "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006", "likes": 700, "comments": 15 },
+        { "image": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg", "likes": 2700, "comments": 30 },
+        { "image": "https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg", "likes": 3200, "comments": 35 }
+      ]
+    },
+    "birds": {
+      "name": "birds",
+      "followers": 25000,
+      "following": 80,
+      "bio": "Feathered friends who brighten the skies and sing melodies.",
+      "profile_picture": "https://images.unsplash.com/photo-1525253086316-d0c936c814f8",
+      "posts": [
+        { "image": "https://images.unsplash.com/photo-1511993226957-cd146d7f9489", "likes": 2000, "comments": 25 },
+        { "image": "https://images.unsplash.com/photo-1557682250-26a6adff644b", "likes": 1500, "comments": 20 },
+        { "image": "https://images.unsplash.com/photo-1501706362039-c6e13f8d486a", "likes": 300, "comments": 8 },
+        { "image": "https://images.pexels.com/photos/104827/pexels-photo-104827.jpeg", "likes": 2200, "comments": 18 },
+        { "image": "https://images.pexels.com/photos/733310/pexels-photo-733310.jpeg", "likes": 1800, "comments": 15 }
+      ]
+    },
+    "rabbits": {
+      "name": "rabbits",
+      "followers": 18000,
+      "following": 60,
+      "bio": "Fluffy hoppers known for their speed and cuteness.",
+      "profile_picture": "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13",
+      "posts": [
+        { "image": "https://images.unsplash.com/photo-1576609985176-c1552a21fdf4", "likes": 1800, "comments": 12 },
+        { "image": "https://images.unsplash.com/photo-1544918875-7f747bdb6f64", "likes": 1200, "comments": 10 },
+        { "image": "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d", "likes": 250, "comments": 4 },
+        { "image": "https://images.pexels.com/photos/928209/pexels-photo-928209.jpeg", "likes": 2000, "comments": 16 },
+        { "image": "https://images.pexels.com/photos/146891/pexels-photo-146891.jpeg", "likes": 1500, "comments": 10 }
+      ]
+    },
+    "horses": {
+      "name": "horses",
+      "followers": 40000,
+      "following": 110,
+      "bio": "Majestic and powerful, horses are symbols of freedom.",
+      "profile_picture": "https://images.unsplash.com/photo-1446992038766-1f0498a597c6",
+      "posts": [
+        { "image": "https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg", "likes": 3200, "comments": 25 },
+        { "image": "https://images.pexels.com/photos/459127/pexels-photo-459127.jpeg", "likes": 2900, "comments": 20 },
+        { "image": "https://images.pexels.com/photos/1133966/pexels-photo-1133966.jpeg", "likes": 1800, "comments": 15 }
+      ]
+    },
+    "foxes": {
+      "name": "foxes",
+      "followers": 15000,
+      "following": 75,
+      "bio": "Sly and sleek, foxes are cunning and beautiful animals.",
+      "profile_picture": "https://images.unsplash.com/photo-1544006659-f0b21884ce1d",
+      "posts": [
+        { "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg", "likes": 2300, "comments": 12 },
+        { "image": "https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg", "likes": 1700, "comments": 8 }
+      ]
+    },
+    "turtles": {
+      "name": "turtles",
+      "followers": 11000,
+      "following": 50,
+      "bio": "Slow and steady, turtles are nature's quiet travelers.",
+      "profile_picture": "https://images.unsplash.com/photo-1604079629819-4ac9f03f9a44",
+      "posts": [
+        { "image": "https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg", "likes": 1500, "comments": 5 },
+        { "image": "https://images.pexels.com/photos/277604/pexels-photo-277604.jpeg", "likes": 1100, "comments": 3 }
+      ]
+    },
+    "pandas": {
+      "name": "pandas",
+      "followers": 60000,
+      "following": 180,
+      "bio": "Gentle giants who enjoy munching on bamboo.",
+      "profile_picture": "https://images.unsplash.com/photo-1578996958404-755f450c27c6",
+      "posts": [
+        { "image": "https://images.pexels.com/photos/127028/pexels-photo-127028.jpeg", "likes": 4000, "comments": 25 },
+        { "image": "https://images.pexels.com/photos/347141/pexels-photo-347141.jpeg", "likes": 3600, "comments": 18 }
+      ]
+    }
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Account Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #e0eafc, #cfdef3);
+            /* Light gradient */
+            background-attachment: fixed;
+            background-size: cover;
+            color: #333;
+            /* Ensures text is legible on light backgrounds */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-info h1 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .profile-info p {
+            color: #888;
+            font-size: 14px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            border-top: 1px solid #dbdbdb;
+            border-bottom: 1px solid #dbdbdb;
+            padding: 10px 0;
+        }
+
+        .stats div {
+            text-align: center;
+        }
+
+        .stats div h2 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .stats div p {
+            color: #888;
+            font-size: 14px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .gallery-item {
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery-item .info {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .gallery-item .info .likes-comments {
+            display: flex;
+            gap: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .gallery-item .info .likes-comments span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .gallery-item .info .likes-comments span i {
+            font-style: normal;
+        }
+
+        .gallery-item .info .caption {
+            font-size: 14px;
+            color: #555;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-pic">
+                <img src=<%=data.posts[0].image %> alt="Profile Picture">
+            </div>
+            <div class="profile-info">
+                <h1>
+                    <%= data.name %>
+
+                </h1>
+                <p>
+                    <%= data.bio %>
+                </p>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div>
+                <h2>
+                    <%= data.posts.length %>
+                </h2>
+                <p>Posts</p>
+            </div>
+            <div>
+                <h2>
+                    <%= data.followers %>
+                </h2>
+                <p>Followers</p>
+            </div>
+            <div>
+                <h2>
+                    <%= data.following %>
+                </h2>
+                <p>Following</p>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <% for (post of data.posts) { %>
+                <div class="gallery-item">
+                    <img src="<%= post.image %>" alt="">
+                    <div class="info">
+                        <div class="likes-comments">
+                            <span>&hearts; <i>
+                                    <%= post.likes %>
+                                </i> Likes</span>
+                            <span>&#128172; <i>
+                                    <%= post.comments.length %>
+                                </i> Comments</span>
+                        </div>
+                        <div class="caption">
+                            <p>
+                                <%= post.caption %>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+        </div>
+    </div>
+</body>
+
+</html>
